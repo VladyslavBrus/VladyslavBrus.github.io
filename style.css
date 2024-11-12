@@ -13,8 +13,6 @@ ul {
   list-style-type: none;
  margin: 0;
  padding: 0;
-}
-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,8 +21,8 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  
 }
+
 
 li {
  float: left;
@@ -42,4 +40,8 @@ li a:hover {
 }
 .active {
   background-color: #474747;
+}
+
+html{
+  scroll-behavior: smooth;
 }
