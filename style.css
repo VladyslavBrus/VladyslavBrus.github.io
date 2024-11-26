@@ -10,7 +10,9 @@ a {
 }
 
 
-body {font-family:'Roboto'
+body {font-family:'Roboto';
+ 
+  
 }
 
 
@@ -103,9 +105,11 @@ html{
   size: 50px;
 }
 
-.p {
-  margin-left: 40px;
+p {
+  text-align: justify;
+  padding: 100px 30px 20px 100px;
 }
+
 
 h4
 a:link, a:visited {
