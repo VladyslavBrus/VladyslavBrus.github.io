@@ -92,6 +92,7 @@ html{
   flex-direction: row;
   align-content: space-around;
   margin: 20px 0px 5px 0px;
+  cursor: pointer;
 }
 
 
@@ -101,11 +102,13 @@ html{
   flex-direction: row;
   align-content: space-around;
   padding-left: 105px;
+  cursor: pointer;
 }
 
 .img3{
   display: flex;
   size: 50px;
+  cursor: pointer;
 }
 
 p {
@@ -129,4 +132,10 @@ a:link, a:visited {
 .iuiuiu {
   padding: 0px 0px 100px 0px;
   
+}
+.img :hover{
+  transform: scale(1.02);
+}
+.img2 :hover{
+  transform: scale(1.02);
 }
